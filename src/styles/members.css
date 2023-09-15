@@ -1,0 +1,9 @@
+.ParentBox {
+    display: flex;
+    gap:1rem;
+    flex-direction: row; /* Stack the text horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-top: 40px;
+    height: auto;
+}
