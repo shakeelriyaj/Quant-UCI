@@ -9,7 +9,7 @@ const MainPage = ({selectedTab}) => {
     return (
       <div>
         <Introduction />
-        <HeaderOverlay />
+        {/* <HeaderOverlay /> */}
         <MissionStatement />
       </div>
     );
@@ -44,14 +44,11 @@ const MainPage = ({selectedTab}) => {
   };
 }
 
-// const LogoIcon = () => {
-//   return <img src={logo} alt="Logo" className="logo" />;
-// }
-
 const Introduction = () => {
   return (
     <Box className="CenteredMainVideo">
       <Box className="video-container">
+      <Box className="HeaderFont">Welcome to FinTech @ UCI!</Box>
         <video width="1500vw" height="auto" autoPlay loop muted>
           <source src={IntroVideo} type="video/mp4" />
         </video>
@@ -60,9 +57,9 @@ const Introduction = () => {
   );
 };
 
-const HeaderOverlay = () => {
-  return <Box className="HeaderFont">Welcome to FinTech @ UCI!</Box>;
-};
+// const HeaderOverlay = () => {
+//   return <Box className="HeaderFont">Welcome to FinTech @ UCI!</Box>;
+// };
 
 const MissionStatement = () => {
   return (
