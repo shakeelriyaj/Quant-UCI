@@ -16,9 +16,30 @@ import Natanael from "./assets/Natanael.jpg"
 import Ethan from "./assets/Ethanvu.jpeg"
 import Shakeel from "./assets/Shakeel.jpg"
 import Oliver from "./assets/Oliver.jpg"
+import { useState } from 'react';
 
 export default function BioCard() {
-  return (
+
+    const [showOliver, setShowOliver] = useState(false);
+    const [showEthan, setShowEthan] = useState(false);
+    const [showShakeel, setShowShakeel] = useState(false);
+    const [showNatanael, setShowNatanael] = useState(false);
+
+    const toggleOliverEmail = () => {
+        setShowOliver(!showOliver);
+    };
+    const toggleEthanEmail = () => {
+        setShowEthan(!showEthan);
+    };
+    const toggleNatanaelEmail = () => {
+        setShowNatanael(!showNatanael);
+    };
+    const toggleShakeelEmail = () => {
+        setShowShakeel(!showShakeel);
+    };
+
+
+    return (
     <div className="ParentBox">
         <Card
         sx={{
@@ -75,8 +96,9 @@ export default function BioCard() {
         <CardOverflow sx={{ bgcolor: 'background.level1' }}>
             <CardActions buttonFlex="1">
             <ButtonGroup variant="outlined" sx={{ bgcolor: 'background.surface' }}>
-                <Button>Message</Button>
+                <Button onClick={toggleNatanaelEmail}>Message</Button>
             </ButtonGroup>
+            {showNatanael && <div>nalpay@uci.edu</div>}
             </CardActions>
         </CardOverflow>
         </Card>
@@ -136,8 +158,9 @@ export default function BioCard() {
         <CardOverflow sx={{ bgcolor: 'background.level1' }}>
             <CardActions buttonFlex="1">
             <ButtonGroup variant="outlined" sx={{ bgcolor: 'background.surface' }}>
-                <Button>Message</Button>
+                <Button onClick={toggleShakeelEmail}>Message</Button>
             </ButtonGroup>
+            {showShakeel && <div>sriyaj@uci.edu</div>}
             </CardActions>
         </CardOverflow>
         </Card>
@@ -197,8 +220,9 @@ export default function BioCard() {
         <CardOverflow sx={{ bgcolor: 'background.level1' }}>
             <CardActions buttonFlex="1">
             <ButtonGroup variant="outlined" sx={{ bgcolor: 'background.surface' }}>
-                <Button>Message</Button>
+                <Button onClick={toggleEthanEmail}>Message</Button>
             </ButtonGroup>
+            {showEthan && <div>ethancv@uci.edu</div>}
             </CardActions>
         </CardOverflow>
         </Card>
@@ -258,8 +282,9 @@ export default function BioCard() {
         <CardOverflow sx={{ bgcolor: 'background.level1' }}>
             <CardActions buttonFlex="1">
             <ButtonGroup variant="outlined" sx={{ bgcolor: 'background.surface' }}>
-                <Button>Message</Button>
+                <Button onClick={toggleOliverEmail}>Message</Button>
             </ButtonGroup>
+            {showOliver && <div>ojchu@uci.edu</div>}
             </CardActions>
         </CardOverflow>
         </Card>
