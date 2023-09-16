@@ -1,5 +1,6 @@
 .ParentBox {
     display: flex;
+    flex-wrap: wrap;
     gap:1rem;
     flex-direction: row; /* Stack the text horizontally */
     align-items: center; /* Center vertically */
