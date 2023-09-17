@@ -3,9 +3,56 @@ import graph from "./assets/Graph.png";
 import equation from "./assets/CovEq.png";
 import { Box } from "@mui/joy";
 import React from "react";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 const Projects = () => {
-    
+    const [timer, setTimer] = useState(0);
+
+    const fetchData = () => {
+      // Fetch data for AA
+      axios
+        .get("https://api.twelvedata.com/time_series?apikey=e4e57fcf63f941b694fda658873d3445&interval=1min&symbol=AA")
+        .then((response) => {
+          console.log("AA Data:", response.data);
+        })
+        .catch((error) => {
+          console.error("Error fetching AA data:", error);
+        });
+  
+      // Fetch data for C
+      axios
+        .get("https://api.twelvedata.com/time_series?apikey=e4e57fcf63f941b694fda658873d3445&interval=1min&symbol=C")
+        .then((response) => {
+          console.log("C Data:", response.data);
+        })
+        .catch((error) => {
+          console.error("Error fetching C data:", error);
+        });
+    };
+  
+    useEffect(() => {
+      const intervalId = setInterval(() => {
+        setTimer((prevTimer) => prevTimer + 1);
+      }, 1000);
+  
+      // Clean up timer and interval when the component unmounts
+      return () => {
+        clearInterval(intervalId);
+      };
+    }, []);
+  
+    useEffect(() => {
+      // Check if timer has reached 60 seconds (1 minute)
+      if (timer === 60) {
+        // Reset timer
+        setTimer(0);
+  
+        // Fetch data when the timer reaches 1 minute
+        fetchData();
+      }
+    }, [timer]);
+  
   return (
     <div className="templateContainer">
     <div className="mainHeader">Pairs Trading using Statistical Arbitrage</div>
