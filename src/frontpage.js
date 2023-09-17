@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import IntroVideo from "./assets/fintech.mp4";
 import "./styles/introduction.css"; 
 import { Box } from "@mui/joy";
 import MemberCard from "./MemberCard"
+import Projects from "./Projects"
 
 const MainPage = ({selectedTab}) => {
   if (selectedTab === 0){
@@ -16,9 +17,7 @@ const MainPage = ({selectedTab}) => {
   };
   if (selectedTab === 1){
     return (
-      <div>
-        projects
-      </div>
+      <Projects/>
       );
   };
   if (selectedTab === 2){
