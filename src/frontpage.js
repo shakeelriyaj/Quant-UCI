@@ -56,10 +56,6 @@ const Introduction = () => {
   );
 };
 
-// const HeaderOverlay = () => {
-//   return <Box className="HeaderFont">Welcome to FinTech @ UCI!</Box>;
-// };
-
 const MissionStatement = () => {
   return (
     <>
