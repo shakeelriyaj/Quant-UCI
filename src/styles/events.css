@@ -1,0 +1,47 @@
+.templateContainer {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center; /* Center horizontally */
+    margin-top: 40px;
+  }
+  
+  .MainHeaderFont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 25px;
+    padding:20px;
+    color:#404040
+  }
+
+  .ParagraphFont {
+    display: flex;
+    width:80%;
+    padding:30px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 19px;
+    text-align: center;
+  }
+
+.ExampleParagraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    width:80%;
+    font-size: 20px;
+}
+
+.LinkTo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 24px;
+    padding: 4vw;
+}
