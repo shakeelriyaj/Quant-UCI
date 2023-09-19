@@ -4,6 +4,7 @@ import "./styles/introduction.css";
 import { Box } from "@mui/joy";
 import MemberCard from "./MemberCard"
 import Projects from "./Projects"
+import Events from "./Events"
 
 const MainPage = ({selectedTab}) => {
   if (selectedTab === 0){
@@ -22,9 +23,7 @@ const MainPage = ({selectedTab}) => {
   };
   if (selectedTab === 2){
     return (
-      <div>
-        events
-      </div>
+      <Events/>
       );
   };
   if (selectedTab === 3){
