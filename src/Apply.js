@@ -5,7 +5,7 @@ const Apply = () => {
     <div className="ApplyHeader">
             Looking to join?
             <div className="form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVwIfmqesKW3PrmUsib6N_sOMRWJSTnNZvSZNbkrK8HlSkNA/viewform?embedded=true" width="640" height="1142" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>    
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVwIfmqesKW3PrmUsib6N_sOMRWJSTnNZvSZNbkrK8HlSkNA/viewform?embedded=true" title="googleform" width="640" height="1142" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>    
             </div>
     </div>
     )

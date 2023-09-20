@@ -67,7 +67,6 @@ const Projects = () => {
     useEffect(() => {
       // Check if timer has reached 60 seconds (1 minute)
       if (timer === 60 & apiGo) {
-        console.log(apiGo)
         // Reset timer
         setTimer(0);
   

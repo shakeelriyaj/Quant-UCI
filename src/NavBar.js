@@ -2,7 +2,7 @@ import * as React from 'react';
 import Tabs from '@mui/joy/Tabs';
 import TabList from '@mui/joy/TabList';
 import Tab, { tabClasses } from '@mui/joy/Tab';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 const TabsSegmentedControls = ({ selectedTab, onTabChange }) => {
 
