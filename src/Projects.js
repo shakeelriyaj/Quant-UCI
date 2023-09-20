@@ -84,9 +84,9 @@ const Projects = () => {
     This project aims to bring trading experience and developer knowledge to our members, while promoting a commonly used strategy in the quantititave finance world.</div>
       <div className="imageContainer">
         <div>
-            <div className="AAstockTicker"> Alcoa Corp current price: {AAdata}$ </div>
+            <div className="AAstockTicker"> Alcoa Corp current price: ${AAdata} </div>
             <br/>
-            <div className="CstockTicker">Citi Bank current price: {Cdata}$ </div>
+            <div className="CstockTicker">Citi Bank current price: ${Cdata} </div>
         </div>
         {checkTime()}
         <Box

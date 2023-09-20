@@ -5,6 +5,7 @@ import { Box } from "@mui/joy";
 import MemberCard from "./MemberCard"
 import Projects from "./Projects"
 import Events from "./Events"
+import Apply from "./Apply"
 
 const MainPage = ({selectedTab}) => {
   if (selectedTab === 0){
@@ -36,7 +37,7 @@ const MainPage = ({selectedTab}) => {
   if (selectedTab === 4){
     return (
       <div>
-        Sponsors
+        <Apply/>
       </div>
       );
   };

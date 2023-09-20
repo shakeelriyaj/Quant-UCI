@@ -38,7 +38,7 @@ const Events = () => {
                 This is an example! Now the aim of the competition is to come up with unique and strong alpha equations that pass the unit tests provided by AlphaGrep.
             </div>
             <div className="LinkTo">
-                Looking to join? Visit  <a href= "https://alphaverse.alpha-grep.com/home" target="_blank" style={{marginLeft: "1vh"}}> alphaverse.alpha-grep.com </a>
+                Looking to join? Visit  <a href= "https://alphaverse.alpha-grep.com/home" target="_blank" rel="noreferrer" style={{marginLeft: "1vh"}}> alphaverse.alpha-grep.com </a>
             </div>
 
         </div>

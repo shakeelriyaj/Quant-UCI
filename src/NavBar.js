@@ -42,7 +42,7 @@ const TabsSegmentedControls = ({ selectedTab, onTabChange }) => {
         <Tab disableIndicator>Projects</Tab>
         <Tab disableIndicator>Events</Tab>
         <Tab disableIndicator>Members</Tab>
-        <Tab disableIndicator>Sponsors</Tab>
+        <Tab disableIndicator>Apply</Tab>
       </TabList>
     </Tabs>
   );
