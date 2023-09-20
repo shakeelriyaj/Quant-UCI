@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4967f8d2.css",
+    "main.js": "/static/js/main.ce03b287.js",
+    "static/media/fintech.mp4": "/static/media/fintech.af9b23881463d83c4609.mp4",
+    "static/media/Shakeel.jpg": "/static/media/Shakeel.5b2661ab56cb1871cd1c.jpg",
+    "static/media/Ethanvu.jpeg": "/static/media/Ethanvu.9abb047e5ffdb1d27541.jpeg",
+    "static/media/Natanael.jpg": "/static/media/Natanael.51d59fda3097ac263e39.jpg",
+    "static/media/Graph.png": "/static/media/Graph.c09681d8db5d118b59ee.png",
+    "static/media/Oliver.jpg": "/static/media/Oliver.143c65b17424bfab3e31.jpg",
+    "static/media/alpha.png": "/static/media/alpha.2fb032a64dec781fb012.png",
+    "static/media/CovEq.png": "/static/media/CovEq.795de961a52926e014ee.png",
+    "static/media/logo.png": "/static/media/logo.416619b095d8eec137a3.png",
+    "index.html": "/index.html",
+    "main.4967f8d2.css.map": "/static/css/main.4967f8d2.css.map",
+    "main.ce03b287.js.map": "/static/js/main.ce03b287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4967f8d2.css",
+    "static/js/main.ce03b287.js"
+  ]
+}
