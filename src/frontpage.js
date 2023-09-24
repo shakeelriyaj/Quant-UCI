@@ -47,7 +47,7 @@ const Introduction = () => {
   return (
     <Box className="CenteredMainVideo">
       <Box className="video-container">
-      <Box className="HeaderFont">Welcome to FinTech @ UCI!</Box>
+      <Box className="HeaderFont">Welcome to Quant@UCI!</Box>
         <video width="1500vw" height="auto" autoPlay loop muted>
           <source src={IntroVideo} type="video/mp4" />
         </video>
