@@ -16,9 +16,11 @@ const Projects = () => {
         <Box
           component="img"
           sx={{
+            display:"flex",
+            justifyContent:"center",
             alignItems: 'center',
             textAlign: 'center',
-            width: '500px',
+            width: '25rem',
             marginBottom: '3vw'
           }}
           alt="eq"

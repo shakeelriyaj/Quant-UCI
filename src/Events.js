@@ -19,7 +19,7 @@ const Events = () => {
                 sx={{
                     alignItems: 'center',
                     textAlign: 'center',
-                    width: '500px',
+                    width: '25rem',
                     margin: '3vw'
                 }}
             alt="eq"

@@ -10,5 +10,4 @@ const Apply = () => {
     </div>
     )
 }
-
 export default Apply

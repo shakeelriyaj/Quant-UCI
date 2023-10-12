@@ -64,3 +64,31 @@
     margin:20px
 
   }
+  @media screen and (max-width: 768px) {
+    .mainHeader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: "Roboto";
+      font-size: 2rem;
+      color: #303030;
+    }
+    .explanationPara {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      text-align: center; /* Center-align the text */
+      flex-wrap: wrap;
+      margin: 2.5vw;
+      font-family: "Roboto";
+      font-size: 20px;
+      color: #505050;
+    }
+    .imageContainer {
+      display: flex;
+      flex-direction: column; /* Stack the images vertically */
+      align-items: center; /* Center horizontally */
+    }
+  }
