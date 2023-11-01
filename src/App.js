@@ -2,7 +2,7 @@ import './styles/App.css';
 import MainPage from './frontpage.js';
 import TabsSegmentedControls from './NavBar';
 import { useState } from 'react';
-import logo from "./assets/logo.png"
+import logo from "./assets/quantbgremoved.png"
 
 function App() {
   const [selectedTab, setSelectedTab] = useState(0);

@@ -4,7 +4,7 @@ import Apply from "./Apply";
 import Events from "./Events";
 import MemberCard from "./MemberCard";
 import Projects from "./Projects";
-import IntroVideo from "./assets/fintech.mp4";
+import IntroVideo from "./assets/fintechcut.mp4";
 import "./styles/introduction.css";
 
 const MainPage = ({ selectedTab }) => {
