@@ -22,7 +22,7 @@ const Events = () => {
                     width: '25rem',
                     margin: '3vw'
                 }}
-            alt="eq"
+            alt="eq" 
             src={alpha}
             ></Box>
             <div className="ExampleParagraph">Here is an example of an alpha equation:
