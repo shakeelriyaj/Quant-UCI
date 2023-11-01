@@ -11,7 +11,7 @@ function App() {
   }
   const handleTabChange = (newValue) => {
     setSelectedTab(newValue);
-  };
+  }; 
 
   return (
     <>
