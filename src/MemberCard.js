@@ -317,7 +317,7 @@ export default function BioCard() {
                 borderColor: 'background.surface',
             }}
             >
-            Secretary
+            VP of Tech
             </Chip>
             <Typography level="title-lg">Benjamin Lin</Typography>
             <Typography level="body-sm" sx={{ maxWidth: '24ch' }}>
