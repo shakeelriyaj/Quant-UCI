@@ -472,7 +472,7 @@ export default function BioCard() {
             >
               <Button onClick={toggleMKEmail}>Message</Button>
             </ButtonGroup>
-            {showNatanael && <div>mummadis@uci.edu</div>}
+            {showMK && <div>mummadis@uci.edu</div>}
           </CardActions>
         </CardOverflow>
       </Card>
